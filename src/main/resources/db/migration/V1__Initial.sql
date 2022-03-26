@@ -1,0 +1,1 @@
+CREATE SCHEMA schema1 AUTHORIZATION dbuser1; CREATE TABLE schema1.places (  id SERIAL,  name VARCHAR(150) NOT NULL UNIQUE,  visited BOOLEAN,  description TEXT,  PRIMARY KEY(id)) WITH (oids = false);

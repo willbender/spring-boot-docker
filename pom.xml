@@ -67,7 +67,11 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		
+		<!-- Used to update database if required -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
 		<!-- JoinFaces -->
 		<dependency>
 			<groupId>org.joinfaces</groupId>
